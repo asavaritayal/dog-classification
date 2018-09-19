@@ -25,3 +25,11 @@ cd predict-shark-demo
 pip install -r requirements.txt
 func host start
 ```
+
+# Test
+
+Test the following endpoint in your browser - 
+
+```
+http://localhost:7071/api/predictspecies?img=https://sec.ch9.ms/ch9/3415/9713cfbb-dd99-4856-947e-1668e49f3415/TrafficManagerandGlobalLoadBalancing_960.jpg
+```
