@@ -31,5 +31,5 @@ func host start
 Test the following endpoint in your browser - 
 
 ```
-http://localhost:7071/api/predictspecies?img=https://sec.ch9.ms/ch9/3415/9713cfbb-dd99-4856-947e-1668e49f3415/TrafficManagerandGlobalLoadBalancing_960.jpg
+http://localhost:7071/api/predictspecies?img=https://i.ytimg.com/vi/0BQzsNatQOY/maxresdefault.jpg
 ```
