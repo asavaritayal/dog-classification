@@ -9,3 +9,4 @@ pillow==5.0.0
 numpy==1.14.1
 flask
 urllib3
+requests
