@@ -20,8 +20,8 @@ env\scripts\activate
 # Setup your app
 
 ```bash
-git clone https://github.com/asavaritayal/predict-shark-demo.git
-cd predict-shark-demo
+git clone https://github.com/asavaritayal/DogClassification.git
+cd DogClassification
 pip install -r requirements.txt
 func host start
 ```
@@ -31,5 +31,5 @@ func host start
 Test the following endpoint in your browser - 
 
 ```
-http://localhost:7071/api/predictspecies?img=https://i.ytimg.com/vi/0BQzsNatQOY/maxresdefault.jpg
-```# DogClassification
+http://localhost:7071/api/classify?img=<image_url>
+```
