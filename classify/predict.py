@@ -8,11 +8,17 @@ from PIL import Image
 import numpy as np
 import sys
 import logging
+import os
 
 from urllib.request import urlopen
 
-filename = 'classify/model.pb'
-labels_filename = 'classify/labels.txt'
+scriptpath = os.path.abspath(__file__)
+scriptdir = os.path.dirname(scriptpath)
+filename = os.path.join(scriptdir, 'model.pb')
+labels_filename = os.path.join(scriptdir, 'labels.txt')
+
+# filename = 'model.pb'
+# labels_filename = 'labels.txt'
 
 network_input_size = 224
 
