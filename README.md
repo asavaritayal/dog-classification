@@ -4,7 +4,7 @@ To use this sample:
 
 - Install [Python 3.6](https://www.python.org/downloads/)
 - Install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) version 2.x or later.
-- Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2) version 2.7.1437 or later (requires .NET Core 2.x SDK).
+- Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2) version 2.7.1437 or later
 
 ### Download the sample
 
